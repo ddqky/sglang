@@ -1,0 +1,50 @@
+python/sglang/srt/mem_cache/storage/mooncake_store/mooncake_store.py
+  s_1b082a7b01dff2::t_ff7dabee5d9d79 885,889-890,896
+  s_1b082a7b01dff2::t_3f9aab58d5c4e8 880-884,886-888,891-895,897-912
+python/sglang/srt/hardware_backend/npu/dsv4/c128_sidecar_component.py
+  s_1b082a7b01dff2::t_bda8f7affddf1c 434-442
+  s_1b082a7b01dff2::t_08e6f2b199fe0f 20,27,36,39,349-360,409-433,443,512-538,540-555,606-627,629-666,668-669
+  s_1b082a7b01dff2::t_3d9196ef7c02c5 539
+  s_1b082a7b01dff2::t_ff7dabee5d9d79 628,667
+python/sglang/srt/mem_cache/unified_radix_cache.py
+  s_1b082a7b01dff2::t_3d9196ef7c02c5 2030
+python/sglang/srt/mem_cache/hybrid_cache/hybrid_cache_controller.py
+  s_1b082a7b01dff2::t_d18767bf46d5ab 1134,1325-1340,1342-1349
+  s_1b082a7b01dff2::t_ff7dabee5d9d79 1341
+  s_1b082a7b01dff2::t_9fdccbf366c577 1139-1140
+  s_1b082a7b01dff2::t_c93969a7f2599c 1350-1352
+  s_1b082a7b01dff2::t_313b5a8c732469 1353-1359
+test/registered/unit/mem_cache/test_dsv4_hicache_l2.py
+  s_1b082a7b01dff2::t_ff7dabee5d9d79 275,299,382
+  s_1b082a7b01dff2::t_5dd8f400570771 15-19,21-23,33,190-234,255-274,276-298,300-317,364-381,383-389
+  s_1b082a7b01dff2::t_a3a7774502b19a 28
+  s_1b082a7b01dff2::t_dbe833dccc85d6 235-254
+  s_6c15700d5b05a9::t_73652e6131b9d1 390-391
+test/registered/unit/mem_cache/test_mooncake_group_semantics.py
+  s_1b082a7b01dff2::t_93e88a32869061 3,278-292,294
+  s_1b082a7b01dff2::t_ff7dabee5d9d79 293
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.14",
+  "base_commit_sha": "ee46c0140d9403bef20c4ae0ab254a91b678de4d",
+  "prompts": {},
+  "sessions": {
+    "s_1b082a7b01dff2": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0b375-adaf-7b82-ad52-5dd536a3a2d0",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "qinky <qinky@chinatelecom.cn>"
+    },
+    "s_6c15700d5b05a9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0b356-fe53-71c1-af5a-6a1a012c241d",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "qinky <qinky@chinatelecom.cn>"
+    }
+  }
+}
